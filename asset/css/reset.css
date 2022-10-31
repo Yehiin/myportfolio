@@ -202,6 +202,13 @@ textarea {
 @font-face {
 	font-family: 'Pretendard';
 	font-style: normal;
+	font-weight: 200;
+	src: local('Pretendard-ExtraLight'),
+			 url('../font/Pretendard/Pretendard-ExtraLight.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Pretendard';
+	font-style: normal;
 	font-weight: 300;
 	src: local('Pretendard-Light'),
 			 url('../font/Pretendard/Pretendard-Light.woff2') format('woff2');
