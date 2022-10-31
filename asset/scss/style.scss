@@ -17,7 +17,18 @@ section {
 	overflow: hidden;
 }
 
-
+.section_index {
+	position: absolute;
+	top: 250px;
+	right: 5vw;
+	transform: rotate(90deg);
+	transform-origin: top right;
+	font-family: 'Pretendard';
+	font-weight: 100;
+	font-size: 20px;
+	letter-spacing: 0.2em;
+	color: #908281;
+}
 
 
 /* Section01 */
@@ -106,17 +117,18 @@ section {
 }
 
 
-
-
-
 /* Section02 */
 .section02 {
 	position: relative;
-	padding: 880px 0 140px;
+	padding: 205px 0 140px;
 	background: #19192a url('../img/pc_section02_bg.jpg') center bottom no-repeat;
 	background-position: 40% center;
 	background-size: cover;
 	color: #8194c2;
+	.title {
+		text-align: center;
+		margin-bottom: 180px;
+	}
 }
 
 .strength li {
