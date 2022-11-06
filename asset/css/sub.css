@@ -3,6 +3,7 @@
 .center_container {
   text-align: center;
 }
+
 .center_container .img_container {
   position: relative;
   display: inline-block;
@@ -16,4 +17,5 @@
   display: block;
   width: 310px;
   height: 64px;
-}/*# sourceMappingURL=sub.css.map */
+}
+/*# sourceMappingURL=sub.css.map */
